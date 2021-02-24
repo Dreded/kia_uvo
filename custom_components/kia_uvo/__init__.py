@@ -21,7 +21,7 @@ from KiaUvo import KiaUvo, InvalidAuthException, NoVehicleException
 
 # TODO List the platforms that you want to support.
 # For your initial PR, limit it to 1 platform.
-PLATFORMS = ["binary_sensor"]
+PLATFORMS = ["binary_sensor","sensor"]
 
 DEFAULT_SCAN_INTERVAL = timedelta(minutes=1)
 FORCE_SCAN_INTERVAL = timedelta(minutes=60)
